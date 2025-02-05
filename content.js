@@ -13,7 +13,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
           var code = editor.getValue();
           document.body.setAttribute('data-echarts-code', code);
           // 恢复折叠状态
-          editor.getSession().foldAll();
+          //editor.getSession().foldAll();
         } catch(e) {
           console.error('获取代码失败:', e);
         }
