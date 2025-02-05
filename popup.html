@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .input-group {
+      margin-bottom: 15px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+      font-size: 14px;
+    }
+    input {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 14px;
+    }
+    input.error {
+      border-color: #ff4444;
+      background-color: #fff0f0;
+    }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: linear-gradient(55deg, #AA39D2, #F32272);
+      color: #ffffff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      transition: all 0.2s ease;
+      position: relative;
+      top: 0;
+    }
+    button:disabled {
+      background: #f1f1f1;
+      color: #666;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+    button:hover:not(:disabled) {
+      background-color: #F32272;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    button:active:not(:disabled) {
+      background-color: #F32272;
+      box-shadow: none;
+      top: 1px;
+    }
+    .message {
+      display: none;
+      color: #4CAF50;
+      font-size: 12px;
+      margin-top: 10px;
+      text-align: center;
+      padding: 8px;
+      background-color: #e8f5e9;
+      border-radius: 4px;
+    }
+    .message.show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <div class="input-group">
+    <label for="axureName">Axure组件名：</label>
+    <input type="text" id="axureName" placeholder="请输入组件名">
+  </div>
+  <button id="copyButton" disabled>生成并复制</button>
+  <div id="successMessage" class="message">复制成功！</div>
+  <script src="popup.js"></script>
+</body>
+</html> 

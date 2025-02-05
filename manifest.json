@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "Axure-ECharts 快集成",
+  "version": "1.0",
+  "description": "一键复制并处理ECharts代码生成Axure组件链接配置格式",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "clipboardWrite",
+    "activeTab",
+    "*://echarts.apache.org/*",
+    "scripting"
+  ],
+  "browser_action": {
+    "default_title": "复制ECharts代码",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://echarts.apache.org/examples/*/editor.html*"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": ["*://echarts.apache.org/*"]
+}
