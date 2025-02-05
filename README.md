@@ -28,15 +28,14 @@
 **四、使用指南**  
 1、打开 ECharts 图表网页：https://echarts.apache.org/examples/zh/index.html；  
 2、点击插件图标：在浏览器工具栏中点击已安装的 Axure-ECharts 插件图标，激活插件；  
-    ![image](https://github.com/user-attachments/assets/f152e6de-4678-41fa-ad9f-f133e2fa4284)
+    ![image](https://github.com/user-attachments/assets/f152e6de-4678-41fa-ad9f-f133e2fa4284)  
 3、输入Axure组件名称：插件自动识别并捕获当前页面ECharts 图表代码，根据提示输入 Axure 组件名称后，自动生成；  
-    ![image](https://github.com/user-attachments/assets/81c4fc0b-2205-4d68-bb17-764cef36b9b5)
+    ![image](https://github.com/user-attachments/assets/81c4fc0b-2205-4d68-bb17-764cef36b9b5)  
 4、一键复制：点击一键复制按钮，将生成的 Axure 组件链接配置格式代码复制到剪贴板，然后粘贴到 Axure 中进行使用；  
-    ![image](https://github.com/user-attachments/assets/6594f8e5-b414-47c0-b408-2db9569dd3a5)
+    ![image](https://github.com/user-attachments/assets/6594f8e5-b414-47c0-b408-2db9569dd3a5)  
 5、Axure中使用：新建矩形组件、命名(与步骤3的命名要一致！！！否则识别不了)，添加交互(显示时-> 打开链接-> 链接到URL或文件路径->粘贴代码ctrl+v或者右键粘贴都可以，注意要把原来的https://清除)；  
    ![image](https://github.com/user-attachments/assets/79c455e9-2235-4d68-8406-5b83ca6e669f)
-   ![image](https://github.com/user-attachments/assets/e6a06b9d-b28d-4e23-a941-c7dfd035b3c6)    ![image](https://github.com/user-attachments/assets/c78b0739-5fd4-40c3-a9d8-840e1effb9ee)
-   ![image](https://github.com/user-attachments/assets/dde3008b-4829-4ca8-a2dc-53e84abffa67)  
+   <img width="1592" alt="Frame 47" src="https://github.com/user-attachments/assets/6c72aed4-f2b9-43bf-8a0b-5d556865687f" />  
 6、点击预览查看效果：本地是无法查看的，需要点击预览查看！  
    ![image](https://github.com/user-attachments/assets/0d3c1e5f-f33d-4245-a166-e04c65539da4)
    ![image](https://github.com/user-attachments/assets/4e86730c-3d71-4934-b520-d9d0d74716ea)
