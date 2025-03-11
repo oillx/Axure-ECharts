@@ -39,7 +39,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
       processedCode = `javascript:
 var script = document.createElement('script');
 script.type = "text/javascript";
-script.src ="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js";
+script.src ="https://registry.npmmirror.com/echarts/5.5.1/files/dist/echarts.min.js";
 document.head.appendChild(script);
 setTimeout(function(){
   var dom =$('[data-label=${request.dataLabel}]').get(0);
